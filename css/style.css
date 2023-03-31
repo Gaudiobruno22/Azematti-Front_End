@@ -8,3 +8,19 @@ body{
     background-color: #f4f4f4;
     font-size: 14px;
 }
+
+header{
+    height: 60px;
+    border-bottom: 2px solid #ccc;
+}
+
+header img{
+    margin-top: 12px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 15px;
+}
