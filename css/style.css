@@ -29,11 +29,18 @@ header img{
     padding-right: 15px;
 }
 
+#planos::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 article{
     border: 1px solid #4d534d;
     width: 370px;
     padding: 10px;
-    display: inline-block;
+    float: left;
+    margin-right: 30px;
 }
 
 article > h2{
@@ -66,4 +73,16 @@ article > ul > li{
 
 article > footer{
     text-align: center;
+}
+
+.botao{
+    display: inline-block;
+    background-color: rgb(12, 92, 55);
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.botao:hover, .botao:focus {
+    background-color: blue;
 }
