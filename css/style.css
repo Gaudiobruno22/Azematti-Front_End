@@ -3,7 +3,7 @@
 }
 
 #plano{
-   padding: 80px 0; 
+   padding: 80px 10px; 
 }
 
 body{
@@ -23,7 +23,7 @@ header img{
 }
 
 .container{
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding-left: 0;
     padding-right: 15px;
@@ -35,12 +35,17 @@ header img{
     clear: both;
 }
 
+@media(min-width: 800px){
+    article{
+        width: 30%;
+        float: left;
+        margin-right: 5%;
+    }
+}
+
 article{
-    border: 1px solid #4d534d;
-    width: 370px;
     padding: 10px;
-    float: left;
-    margin-right: 30px;
+    border: 1px solid #4d534d;
 }
 
 article > h2{
@@ -84,5 +89,5 @@ article > footer{
 }
 
 .botao:hover, .botao:focus {
-    background-color: blue;
+    background-color: rgb(59, 112, 52);
 }
