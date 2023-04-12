@@ -22,30 +22,16 @@ header img{
     margin-top: 12px;
 }
 
-.container{
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 0;
-    padding-right: 15px;
-}
-
 #planos::after{
     content: "";
     display: block;
     clear: both;
 }
 
-@media(min-width: 800px){
-    article{
-        width: 30%;
-        float: left;
-        margin-right: 5%;
-    }
-}
-
 article{
     padding: 10px;
-    border: 1px solid #4d534d;
+    border: 2px solid #4d534d;
+    margin-top: 2%;
 }
 
 article > h2{
