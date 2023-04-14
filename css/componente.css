@@ -1,40 +1,13 @@
-*{
-    box-sizing: border-box;
-}
-
-#plano{
-   padding: 80px 10px; 
-}
-
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
-    font-size: 14px;
-}
-
-header{
-    height: 60px;
-    border-bottom: 2px solid #ccc;
-}
-
-header img{
-    margin-top: 12px;
-}
-
-#planos::after{
-    content: "";
-    display: block;
-    clear: both;
-}
-
-article{
+/**********\
+   PLANOS
+\**********/
+.pl-tipo{
     padding: 10px;
     border: 2px solid #4d534d;
     margin-top: 2%;
 }
 
-article > h2{
+.pl-tipo__cabecalho{
     background-color: #4d534d;
     color: #fff;
     text-align: center;
@@ -45,27 +18,31 @@ article > h2{
     font-size: 25px;
 }
 
-article div{
+.pl-tipo__preco{
     text-align: center;
     font-size: 25px;
     margin: 20px 0;
 }
 
-article > ul{
+.pl-tipo__descr{
     list-style: none;
     padding: 0;
     margin: 20px 0;
 
 }
 
-article > ul > li{
+.pl-tipo__li{
     text-align: center;
 }
 
-article > footer{
+.pl-tipo__rodape{
     text-align: center;
 }
 
+
+/**********\
+   BOTAO
+\**********/
 .botao{
     display: inline-block;
     background-color: rgb(12, 92, 55);
@@ -76,4 +53,18 @@ article > footer{
 
 .botao:hover, .botao:focus {
     background-color: rgb(59, 112, 52);
+    text-decoration: none;
+    color: white;
+}
+
+
+.botao--assinar{
+    display: inline-block;
+    background-color: rgb(12, 92, 55);
+}
+
+.botao--assinar:hover, .botao--assinar:focus {
+    background-color: rgb(42, 78, 37);
+    text-decoration: none;
+    color: white;
 }
