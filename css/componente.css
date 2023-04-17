@@ -277,10 +277,15 @@
     
         padding: 20px;
         width: 200px;
+        display: none;
 
         border-right: 1px solid #eee;
     
         background-color: #fbfbfb;
+    }
+
+    .menu--exibindo{
+        display: block;
     }
 
     .menu__item{
