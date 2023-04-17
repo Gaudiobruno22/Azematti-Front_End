@@ -69,6 +69,7 @@
     color: #fff;
     padding: 0.8em 1.2em;
     text-decoration: none;
+    line-height: normal;
 
     font-size: 1em;
 }
@@ -103,6 +104,23 @@
     background-color: rgb(37, 127, 179);
     text-decoration: none;
     color: white; 
+}
+
+.botao--login{
+    display: inline-block;
+    background-color: rgb(12, 92, 55);
+    color: #fff;
+    padding: 0.8em 1.2em;
+    text-decoration: none;
+    line-height: normal;
+
+    font-size: 1em;
+}
+
+.botao--login:hover, .botao--login:focus{
+    background-color: rgb(42, 78, 37);
+    text-decoration: none;
+    color: white;
 }
 
 /**********\
@@ -193,6 +211,7 @@
 
 .depoimento-autor > img{
     border-radius: 50%;
+    border: 4px solid #fff;
 }
 
 .depoimento-autor > p{
@@ -200,4 +219,90 @@
 
     text-shadow: 1px 1px #313131;
     color: #fff;
+}
+
+/**********\
+  NAVEGAÇÃO
+\**********/
+
+.navegacao{
+
+}
+
+.navegacao__menu{
+    float: right;
+}
+
+/*****************\
+  BOTÃO CHAVEADOR
+\*****************/
+
+.botao-chaveador{
+    width: 24px;
+    height: 24px;
+    border: 0;
+
+    margin-top: 80%;
+
+    background: none;
+    background-image: url("../imagens/bars.png");
+
+    outline: none;
+}
+
+@media(min-width: 992px){
+    .botao-chaveador{
+        display: none;
+    }
+}
+
+/*****************\
+    MENU
+\*****************/
+
+.menu{ /*Aqui São as configurações do Menu Para Tela Grande.*/
+    margin: 0;
+
+    font-size: 1.4rem;
+
+    list-style: none;
+}
+
+@media(max-width: 991px){
+    .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+    
+        padding: 20px;
+        width: 200px;
+
+        border-right: 1px solid #eee;
+    
+        background-color: #fbfbfb;
+    }
+
+    .menu__item{
+
+        display: block;
+    
+        line-height: 3;
+    }
+    
+    .menu__item--botao{
+        margin-top: 20px;
+    }
+}
+
+@media(min-width: 992px){
+    .menu__item{
+        display: inline-block;
+        padding-right: 20px;
+        margin-top: 10px;
+    }
+
+    .menu__item:last-of-type{
+        padding-right: 0px;
+    }
 }
