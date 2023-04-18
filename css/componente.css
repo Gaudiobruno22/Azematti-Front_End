@@ -99,6 +99,7 @@
 
     text-decoration: none;
     color: white;
+    border: none;
 }
 
 .botao--principal:hover, .botao--principal:focus{
@@ -122,6 +123,23 @@
     background-color: rgb(42, 78, 37);
     text-decoration: none;
     color: white;
+}
+
+.botao--cadastro{
+    background-color: rgb(37, 127, 179);
+    text-decoration: none;
+
+    color: white;
+    font-size: 1.3em;
+
+    width: 10em;
+    height: 2.2em;
+}
+
+.botao--cadastro:hover, .botao--cadastro:focus{
+    background-color: rgb(16, 74, 107);
+    text-decoration: none;
+    color: white; 
 }
 
 /**********\
@@ -323,8 +341,8 @@
 
 .titulo-formulario{
     margin: 0;
-    margin-bottom: 40px;
-
+    margin-bottom: 30px;
+    margin-top: 1.5em;
     border-bottom: 1px solid #ccc;
 
     font-size: 2.6rem;
