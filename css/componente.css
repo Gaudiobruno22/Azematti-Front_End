@@ -34,7 +34,7 @@
     margin: -10px;
     margin-bottom: 5px;
     font-weight: normal;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 
 .pl-tipo__preco{
@@ -65,7 +65,7 @@
 \**********/
 .botao{
     display: inline-block;
-    background-color: rgb(12, 92, 55);
+    background-color: rgb(175, 13, 13);
     color: #fff;
     padding: 0.8em 1.2em;
     text-decoration: none;
@@ -84,33 +84,43 @@
 
 .botao--assinar{
     display: inline-block;
-    background-color: rgb(12, 92, 55);
+    background-color: rgb(175, 13, 13);
 }
 
 .botao--assinar:hover, .botao--assinar:focus {
-    background-color: rgb(42, 78, 37);
+    background-color: rgb(125, 120, 120);
     text-decoration: none;
     color: white;
 }
 
 .botao--principal{
-    background-color: rgb(12, 67, 139);
+    background-color: rgb(175, 13, 13);
     border-radius: 10px;
 
     text-decoration: none;
+    text-align: center;
+    line-height: 1;
+    white-space: nowrap;
+
     color: white;
     border: none;
+    text-shadow: 2px 2px #313131;
+
+    font-size: 1em;
+
+    width: 11em;
+    height: 2.5em;
 }
 
 .botao--principal:hover, .botao--principal:focus{
-    background-color: rgb(37, 127, 179);
+    background-color: rgb(107, 103, 103);
     text-decoration: none;
     color: white; 
 }
 
 .botao--login{
     display: inline-block;
-    background-color: rgb(12, 92, 55);
+    background-color: rgb(175, 13, 13);
     color: #fff;
     padding: 0.8em 1.2em;
     text-decoration: none;
@@ -120,7 +130,7 @@
 }
 
 .botao--login:hover, .botao--login:focus{
-    background-color: rgb(42, 78, 37);
+    background-color: rgb(107, 103, 103);
     text-decoration: none;
     color: white;
 }
@@ -142,6 +152,12 @@
     color: white; 
 }
 
+.botao_planos{
+    margin-top: 5.5em;
+    font-size: 2em;
+    text-align: center;
+}
+
 /**********\
    CHAMADA
 \**********/
@@ -149,27 +165,8 @@
 .chamada{
     font-size: 1.6rem; /*16px*/ 
     text-align: center;
-}
-
-.chamada__titulo{
-    margin: 0;
-
-    color: #fff;
-
-    font-size: 3.375em; /* 54px / 16px = 3.375 - 16px é o tamanho padrão definido pelo rem*/
-    line-height: 0.9;
-    text-shadow: 1px 2px #313131;
-}
-
-.chamada__paragrafo{
-    margin: 60px 0;
-
-    color: #fff;
-    font-size: 1.1em;  
-}
-
-.chamada__acao{
-    font-size: 1em;
+    background-color: none;
+    margin-top: 8em;
 }
 
 @media(min-width: 992px){
@@ -181,12 +178,39 @@
     }
 }
 
+.chamada__titulo{
+    margin-top: -3em;
+
+    
+    color: rgb(255, 255, 255);
+
+    font-size: 3.375em; /* 54px / 16px = 3.375 - 16px é o tamanho padrão definido pelo rem*/
+    line-height: 0.9;
+    text-shadow: 1px 2px #313131;
+}
+
+.chamada__titulo--strong{
+    color: #c20303;
+
+    font-weight: 1;
+}
+
+
+
+.chamada__paragrafo{
+    margin: 60px 0;
+
+    color: #fff;
+    font-size: 1.1em;  
+}
+
+
 /**********\
  DEPOIMENTO
 \**********/
 
 
-@media(min-width: 992px){
+@media(max-width: 992px){
     .depoimento{
         padding-left: 15%;
         padding-right: 15%;
@@ -245,11 +269,11 @@
 \**********/
 
 .navegacao{
-
 }
 
 .navegacao__menu{
     float: right;
+    
 }
 
 .navegacao--assinatura {
@@ -309,6 +333,9 @@
 
     .menu--exibindo{
         display: block;
+        background-color: grey;
+        color: #eee;
+        
     }
 
     .menu__item{
@@ -316,10 +343,18 @@
         display: block;
     
         line-height: 3;
+
+        font-size: 1em;
+        
     }
     
     .menu__item--botao{
         margin-top: 20px;
+    }
+
+    .menu_estilo{
+        color: #ccc;
+        text-decoration: none;
     }
 }
 
@@ -328,11 +363,44 @@
         display: inline-block;
         padding-right: 20px;
         margin-top: 10px;
+
     }
 
     .menu__item:last-of-type{
         padding-right: 0px;
     }
+
+    
+    .menu__item > a{
+        font-size: 1em;
+    }
+}
+
+
+/**************************\
+   TITULO PÁGINA PRINCIPAL
+\**************************/
+
+.titulo{
+    color: #eee;
+
+    margin-left: 0;
+    
+    margin-top: -0.4em;
+    
+    width: 500px;
+    height: 45px;
+
+    font-size: 2em;
+    color: rgb(254, 251, 251);
+
+    text-align: center;
+
+
+    white-space: nowrap;
+    float: left;
+
+    padding: 20px;
 }
 
 /*******************\

@@ -60,6 +60,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
+  color: crimson;
 }
 dfn {
   font-style: italic;
@@ -223,7 +224,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #eceff1;
   text-decoration: none;
 }
 a:hover,
