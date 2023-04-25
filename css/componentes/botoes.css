@@ -109,6 +109,80 @@
     justify-content: center;
 }
 
+@media (max-width: 992px) {
+    .botao--principal{
+        background-color: rgb(175, 13, 13);
+        border-radius: 10px;
+    
+        text-decoration: none;
+        text-align: center;
+        
+    
+        line-height: 1;
+        white-space:nowrap;
+    
+        color: white;
+        border: none;
+        text-shadow: 2px 2px #313131;
+    
+        font-size: 0.5em;
+    
+        width: 11.7em;
+        height: 2.5em;
+    
+        margin-top: 10em;
+    
+        padding-top: -3em;
+        padding-bottom: -2em;
+    
+    
+    
+    }
+    
+    .botao--principal:hover, .botao--principal:focus{
+        background-color: rgb(107, 103, 103);
+        text-decoration: none;
+        color: white; 
+    }
+}
+
+@media (max-width: 576px){
+    .botao--principal{
+        background-color: rgb(175, 13, 13);
+        border-radius: 10px;
+    
+        text-decoration: none;
+        text-align: center;
+        
+    
+        line-height: 1;
+        white-space:nowrap;
+    
+        color: white;
+        border: none;
+        text-shadow: 2px 2px #313131;
+    
+        font-size: 0.5em;
+    
+        width: 11.7em;
+        height: 2.5em;
+    
+        margin-top: 16em;
+
+        padding-top: -3em;
+        padding-bottom: -2em;
+    
+    
+    
+    }
+    
+    .botao--principal:hover, .botao--principal:focus{
+        background-color: rgb(107, 103, 103);
+        text-decoration: none;
+        color: white; 
+    }
+}
+
 /*****************\
   BOTÃO CHAVEADOR
 \*****************/

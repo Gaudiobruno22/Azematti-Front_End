@@ -1,4 +1,3 @@
-
 /******************\
   CHAMADA PRINCIPAL
 \******************/
@@ -81,6 +80,96 @@
 
 }
 
+@media (max-width: 992px) {
+    .conteudo__descricao{    
+        color: #fff;
+    
+        display: block;
+    
+        margin-left: 2em;
+    
+        font-size: 1.2em;
+        font-style: bold;  
+        text-shadow: 1px 1px #000000;
+    
+    }
+
+    .lista .lista__esquerda{
+        
+        margin-top: 0.1em;
+        margin-left: 0.5em;
+        color: #eee;
+        font-size: 1em;
+        text-shadow: 1px 2px #313131;
+    
+    }
+    .conteudo__descricao2{
+    
+        color: #fff;
+    
+        display: block;
+    
+        margin-right: 4em;
+
+        font-size: 1.2em;
+        font-style: bold;  
+        text-shadow: 1px 2px #000000;
+    
+    }
+
+    .lista .lista__direita{
+        text-align: left;   
+        margin-right: 2em; 
+
+        margin-top: 0.1em;
+
+        font-size: 1em;
+
+        text-shadow: 1px 2px #313131;
+    }
+}
+
+@media (max-width: 576px){
+    .conteudo__descricao{    
+        color: #fff;
+    
+        display: block;
+    
+        margin-top: -1em;
+        margin-left: 4.5em;
+    
+        font-size: 1.2em;
+        font-style: bold;  
+        text-shadow: 1px 1px #000000;
+    }
+
+    .conteudo__descricao2{
+    
+        color: #fff;
+    
+        display: block;
+    
+        margin-right: 6.5em;
+
+        font-size: 1.2em;
+        font-style: bold;  
+        text-shadow: 1px 1px #000000;  
+    }
+
+    .lista .lista__direita{
+        text-align: left;
+        white-space: nowrap;
+        
+        margin-right: 6.2em; 
+
+        margin-top: 6em;
+
+        font-size: 1em;
+
+        text-shadow: 1px 2px #313131;
+    }
+}
+
 /**********\
    LISTA
 \**********/
@@ -103,9 +192,6 @@
     text-align: left;
 
     margin-left: -3rem;
-
-
-
 }
 
 .lista__direita{
@@ -115,6 +201,5 @@
     right: -2em;
 
     text-align: left;
-
 
 }
