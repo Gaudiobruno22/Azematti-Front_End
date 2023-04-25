@@ -1,0 +1,133 @@
+
+/**********\
+   BOTAO
+\**********/
+.botao{
+    display: inline-block;
+    background-color: rgb(175, 13, 13);
+    color: #fff;
+    padding: 0.8em 1.2em;
+    text-decoration: none;
+    line-height: normal;
+    border: none;
+
+    font-size: 1em;
+}
+
+.botao:hover, .botao:focus {
+    background-color: rgb(59, 112, 52);
+    text-decoration: none;
+    color: white;
+}
+
+
+.botao--assinar{
+    display: inline-block;
+    background-color: rgb(175, 13, 13);
+}
+
+.botao--assinar:hover, .botao--assinar:focus {
+    background-color: rgb(125, 120, 120);
+    text-decoration: none;
+    color: white;
+}
+
+.botao--principal{
+    background-color: rgb(175, 13, 13);
+    border-radius: 10px;
+
+    text-decoration: none;
+    text-align: center;
+    
+
+    line-height: 1;
+    white-space:nowrap;
+
+    color: white;
+    border: none;
+    text-shadow: 2px 2px #313131;
+
+    font-size: 1em;
+
+    width: 11.7em;
+    height: 2.5em;
+
+    margin-top: 7em;
+
+    padding-top: -3em;
+    padding-bottom: -2em;
+
+
+
+}
+
+.botao--principal:hover, .botao--principal:focus{
+    background-color: rgb(107, 103, 103);
+    text-decoration: none;
+    color: white; 
+}
+
+.botao--login{
+    display: inline-block;
+    background-color: rgb(175, 13, 13);
+    color: #fff;
+    padding: 0.8em 1.2em;
+    text-decoration: none;
+    line-height: normal;
+
+    font-size: 1em;
+}
+
+.botao--login:hover, .botao--login:focus{
+    background-color: rgb(107, 103, 103);
+    text-decoration: none;
+    color: white;
+}
+
+.botao--cadastro{
+    background-color: rgb(37, 127, 179);
+    text-decoration: none;
+
+    color: white;
+    font-size: 1.3em;
+
+    width: 10em;
+    height: 2.2em;
+}
+
+.botao--cadastro:hover, .botao--cadastro:focus{
+    background-color: rgb(16, 74, 107);
+    text-decoration: none;
+    color: white; 
+}
+
+.botao_planos{
+    margin-top: 3em;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*****************\
+  BOTÃO CHAVEADOR
+\*****************/
+
+.botao-chaveador{
+    width: 24px;
+    height: 24px;
+    border: 0;
+
+    margin-top: 80%;
+
+    background: none;
+    background-image: url("/imagens/bars.png");
+
+    outline: none;
+}
+
+@media(min-width: 992px){
+    .botao-chaveador{
+        display: none;
+    }
+}

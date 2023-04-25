@@ -1,0 +1,72 @@
+/*****************\
+    MENU
+\*****************/
+
+.menu{ /*Aqui São as configurações do Menu Para Tela Grande.*/
+    margin: 0;
+
+    font-size: 1.4rem;
+
+    list-style: none;
+}
+
+@media(max-width: 991px){
+    .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+    
+        padding: 20px;
+        width: 200px;
+        display: none;
+
+        border-right: 1px solid #eee;
+    
+        background-color: #fbfbfb;
+    }
+
+    .menu--exibindo{
+        display: block;
+        background-color: grey;
+        color: #eee;
+        
+    }
+
+    .menu__item{
+
+        display: block;
+    
+        line-height: 3;
+
+        font-size: 1em;
+        
+    }
+    
+    .menu__item--botao{
+        margin-top: 20px;
+    }
+
+    .menu_estilo{
+        color: #ccc;
+        text-decoration: none;
+    }
+}
+
+@media(min-width: 992px){
+    .menu__item{
+        display: inline-block;
+        padding-right: 20px;
+        margin-top: 10px;
+
+    }
+
+    .menu__item:last-of-type{
+        padding-right: 0px;
+    }
+
+    
+    .menu__item > a{
+        font-size: 1em;
+    }
+}

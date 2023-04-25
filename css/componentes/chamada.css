@@ -1,0 +1,120 @@
+
+/******************\
+  CHAMADA PRINCIPAL
+\******************/
+
+.chamada{
+    font-size: 1.6rem; /*16px*/ 
+    text-align: center;
+    margin-top: 8em;
+}
+
+@media(min-width: 992px){
+    .chamada{
+        padding-left: 10%;
+        padding-right: 10%;
+
+        font-size: 2.2rem;
+    }
+}
+
+.chamada__titulo{
+    margin-top: -3em;
+
+    
+    color: rgb(255, 255, 255);
+
+    font-size: 3.375em; /* 54px / 16px = 3.375 - 16px é o tamanho padrão definido pelo rem*/
+    line-height: 0.9;
+    text-shadow: 1px 2px #313131;
+}
+
+.chamada__titulo--strong{
+    color: #c20303;
+
+    font-weight: 1;
+}
+
+/**********\
+  CONTEUDO
+\**********/
+
+.conteudo{
+
+    position: relative;
+}
+
+
+.conteudo__descricao{
+
+    position: absolute;
+    left: -2.3em;
+
+
+
+    color: #fff;
+
+    display: inline-block;
+
+
+    font-size: 2em;
+    font-style: bold;  
+    text-shadow: 1px 2px #000000;
+
+}
+
+.conteudo__descricao2{
+
+    position: absolute;
+    right: -3em;
+
+
+
+    color: #fff;
+
+    display: inline-block;
+
+
+    font-size: 2em;
+    font-style: bold;  
+    text-shadow: 1px 2px #000000;
+
+}
+
+/**********\
+   LISTA
+\**********/
+
+.lista{
+
+    position: relative;
+    color: #eee;
+    font-size: 1.4em;
+    text-shadow: 1px 2px #313131;
+
+}
+
+.lista__esquerda{
+
+    position: absolute;
+    left: -2em;
+    top: 2.5em;
+
+    text-align: left;
+
+    margin-left: -3rem;
+
+
+
+}
+
+.lista__direita{
+
+    position: absolute;
+    top: 2.5em;
+    right: -2em;
+
+    text-align: left;
+
+
+}

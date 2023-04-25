@@ -1,0 +1,58 @@
+/**********\
+ DEPOIMENTO
+\**********/
+
+
+@media(max-width: 992px){
+    .depoimento{
+        padding-left: 15%;
+        padding-right: 15%;
+
+        font-size: 2.0rem;
+    }
+}
+
+.depoimento{
+    
+   font-size: 2.2rem; 
+}
+
+.depoimento >blockquote{
+    position: relative;
+    margin: 0;
+    padding: 0 60px;
+
+    text-align: center;
+    font-size: 1em;
+}
+
+.depoimento >blockquote::before{
+    position: absolute;
+    left: 0;
+    top: -0.35em;
+
+    color: #ccc;
+
+    font-size: 8em;
+
+    content: "\201C";
+}
+
+.depoimento-autor{
+    margin-top: 40px;
+
+    text-align: center;
+    font-size: 0.7272em;
+}
+
+.depoimento-autor > img{
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+.depoimento-autor > p{
+    margin-top: 10px;
+
+    text-shadow: 1px 1px #313131;
+    color: #fff;
+}

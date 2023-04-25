@@ -1,0 +1,61 @@
+/**********\
+   PLANOS
+\**********/
+
+.pl-tipo{
+    position: relative;
+
+    padding: 10px;
+    border: 2px solid #4d534d;
+    margin-top: 2%;
+    font-size: 1.4rem; /*14px Plano principal.*/
+}
+
+.pl-tipo--popular::after{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+
+    padding: 2px 8px;
+
+    background-color: #c20303;
+    color: #fff;
+
+    font-size: 0.8221em;
+    line-height: 2.5;
+
+    content: "MAIS POPULAR";
+}
+
+.pl-tipo__cabecalho{
+    background-color: #4d534d;
+    color: #fff;
+    text-align: center;
+    line-height: 2.5;
+    margin: -10px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 1.7em;
+}
+
+.pl-tipo__preco{
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.pl-tipo__descr{
+    list-style: none;
+    padding: 0;
+    margin: 1.4285em 0;
+    font-size: 1em;
+
+}
+
+.pl-tipo__li{
+    text-align: center;
+}
+
+.pl-tipo__rodape{
+    text-align: center;
+}
