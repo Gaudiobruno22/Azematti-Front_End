@@ -42,6 +42,8 @@
     text-align: center;
     font-size: 2em;
     margin: 20px 0;
+
+
 }
 
 .pl-tipo__descr{
@@ -52,10 +54,35 @@
 
 }
 
+.pl-tipo__mini{
+    color: #fff;
+
+    text-align: center;
+
+    line-height: 0.9;
+}
+
 .pl-tipo__li{
     text-align: center;
 }
 
 .pl-tipo__rodape{
     text-align: center;
+}
+
+.pl-tipo__rodape__mini{
+    text-align: center;
+}
+
+
+.pl-tipo__img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+}
+
+.pl-tipo__img > img {
+    width: 100%;
 }

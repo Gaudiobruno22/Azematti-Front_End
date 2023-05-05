@@ -49,6 +49,9 @@
 .layout-depoimento{
     padding: 80px 0;
     background-color: #bbb9b9;
+
+    background-size: cover;
+    background-position: center;
 }
 
 .layout-rodape{
