@@ -47,12 +47,20 @@
 .titulo-formulario{
     margin: 0;
     margin-bottom: 30px;
-    margin-top: 1.5em;
-    border-bottom: 1px solid #ccc;
+    margin-top: 0.5em;
+    border-bottom: none;
 
     font-size: 2.6rem;
     font-weight: normal;
-    color: #004b86;
+    color: #fffbfb;
+}
+
+.info-formulario{
+    margin-top: 1em;
+}
+
+.complemento-formulario{
+    font-size: 1.3em;
 }
 
 

@@ -23,7 +23,11 @@
 }
 
 .layout-plano{
-    padding: 80px 10px; 
+    padding: 80px 10px;
+
+    background-size: cover;
+    background-position: center;
+    
  }
 
  @media(max-width: 749px){
@@ -65,4 +69,5 @@
 
 .layout-assinatura{
     padding: 40px 0;
+    margin-top: 3em;
 }
