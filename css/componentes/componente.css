@@ -12,6 +12,7 @@
 
 .navegacao--assinatura {
     text-align: center;
+    text-decoration: none;
   }
 
 /**************************\
@@ -53,16 +54,68 @@
     font-size: 2.6rem;
     font-weight: normal;
     color: #fffbfb;
+
+    text-decoration: none;
+    
 }
 
 .info-formulario{
     margin-top: 1em;
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+
+    text-shadow: 2px 3px rgb(31, 31, 31);
+    
+    
 }
 
 .complemento-formulario{
     font-size: 1.3em;
+
+    border-radius: 15px;
+    background-color: none;
+
+    
+    
+    margin-bottom: 2em;
 }
 
+.descricao-formulario{
+    margin-bottom: 4em;
+
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px rgb(31, 31, 31);
+
+
+    border-radius: 10px;
+}
+
+/************************\
+    Página de Cadastro
+\************************/
+
+.forms{
+    background-color: rgb(146, 146, 138);
+
+    padding-left: 6em;
+    padding-right: -6em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+
+    border-style: inset;
+    border-width: 0;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 4px;
+    border-left-width: 6px;
+    border-radius: 13px;
+    border-color: rgb(145, 145, 145);
+
+    box-shadow: 6px 6px 10px rgb(124, 123, 123);
+}
 
 /*******************\
     GRUPO ENTRADA
@@ -76,6 +129,7 @@
     display: block;
 
     font-weight: bold;
+    color: rgb(255, 255, 255);
 }
 
 /*******************\
@@ -88,8 +142,10 @@
     height: 2.8em;
 
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(7, 7, 7);
     border-radius: 5px;
+
+    color: black;
 
     font-size: 1.4rem;
 

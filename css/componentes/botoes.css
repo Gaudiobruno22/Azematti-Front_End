@@ -89,7 +89,7 @@
 }
 
 .botao--cadastro{
-    background-color: rgb(37, 127, 179);
+    background-color: rgb(175, 13, 13);
     text-decoration: none;
 
     color: white;
@@ -97,10 +97,12 @@
 
     width: 10em;
     height: 2.2em;
+
+    margin-top: 3.5em;
 }
 
 .botao--cadastro:hover, .botao--cadastro:focus{
-    background-color: rgb(16, 74, 107);
+    background-color: rgb(126, 35, 35);
     text-decoration: none;
     color: white; 
 }

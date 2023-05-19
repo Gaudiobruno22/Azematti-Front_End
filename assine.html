@@ -24,104 +24,103 @@
       <div class="container">
 
         <nav class="navegacao  navegacao--assinatura">
-            <h5 class="titulo-formulario">Azematti Performance <strong>&reg;</strong></h5>
+            <a href="index.html"><h5 class="titulo-formulario">Azematti Performance <strong>&reg;</strong></h5></a>
         </nav>
         
       </div>
     </header>
 
-    <main class="layout-assinatura" style="background-image: url(imagens/gt2.jpg); background-size: cover;">
+    <main class="layout-assinatura" style="background-image: url(imagens/mercedez.jpg); background-size: cover; background-position: left; color: rgb(250, 250, 247);">
         <div class="container">
-            <form action="#" method="post">
-                <h1 class="info-formulario">Preencha este Formulário abaixo!</h1>
-                <p class="complemento-formulario">Preencha as informações e o que deseja para seu veículo para entrarmos em contato.</p>
-                <div class="grupo-entrada">
-                    <label for="razaoSocial">Razão Social:</label>
-                    <input type="text" id="razaoSocial" class="campo" required>
-                </div>
+            
+                <form action="#" method="post">
+                    <div class="complemento-formulario">
+                        <h1 class="info-formulario"><strong>Preencha</strong> este Formulário abaixo!</h1>
+                        <h3 class="descricao-formulario">Preencha as informações e o que deseja para seu veículo para entrarmos em <strong>contato.</strong></h3>
+                    </div>
+                    <div class="forms">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="grupo-entrada">
+                                    <label for="razaoSocial">Nome Completo:</label>
+                                    <input type="text" id="nome" class="campo" required>
+                                </div>
+                            </div>
 
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="grupo-entrada">
-                            <label for="cnpj">CNPJ:</label>
-                            <input type="text" id="cnpj" class="campo" required>
+                            <div class="col-sm-5">
+                                <div class="grupo-entrada">
+                                    <label for="cidade">Cidade:</label>
+                                    <select id="cidade" class="campo">
+                                        <option>Selecione:</option>
+                                        <option value="1">Uberlândia</option>
+                                        <option value="2">São Paulo</option>
+                                        <option value="3">Fortaleza</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="grupo-entrada">
+                                    <label for="estado">Estado:</label>
+                                    <select id="estado" class="campo">
+                                        <option>Selecione:</option>
+                                        <option value="MG">Minas Gerais</option>
+                                        <option value="SP">São Paulo</option>
+                                        <option value="CE">Ceará</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-5">
+                                <div class="grupo-entrada">
+                                    <label for="cnpj">Seu E-mail:</label>
+                                    <input type="text" id="email" class="campo" required>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-3">
+                                <div class="grupo-entrada">
+                                    <label for="telefone">Telefone para Contato:</label>
+                                    <input type="text" id="telefone" class="campo">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="grupo-entrada">
+                                    <label for="veiculo">Qual seu Veículo:</label>
+                                    <input type="text" id="veiculo" class="campo">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="grupo-entrada">
+                                    <label for="servico">Qual Serviço de Interesse?</label>
+                                    <select id="estagio" class="campo">
+                                        <option>Selecione:</option>
+                                        <option value="01">Estágio 01</option>
+                                        <option value="02">Estágio 02</option>
+                                        <option value="sensor">Sensores Off</option>
+                                        <option value="outros">Outros</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="col-sm-3">
-                        <div class="grupo-entrada">
-                            <label for="dataNasc">Data de Fundação:</label>
-                            <input type="date" id="dataNasc" class="campo">
+                        <div style="text-align: center;">
+                            <input type="submit" value="Enviar Cadastro" class=" botao--principal botao--cadastro">
                         </div>
-                    </div>
-                </div>
-
-                <div class="grupo-entrada">
-                    <label for="responsavel">Responsável:</label>
-                    <input type="text" id="responsavel" class="campo">
-                </div>
-
-                <div class="grupo-entrada">
-                    <label for="responsavel">Email:</label>
-                    <input type="email" id="responsavel" class="campo">
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="grupo-entrada">
-                            <label for="estado">Estado:</label>
-                            <select id="estado" class="campo">
-                                <option>Selecione:</option>
-                                <option value="MG">Minas Gerais</option>
-                                <option value="SP">São Paulo</option>
-                                <option value="CE">Ceará</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="grupo-entrada">
-                            <label for="cidade">Cidade:</label>
-                            <select id="cidade" class="campo">
-                                <option>Selecione:</option>
-                                <option value="1">Uberlândia</option>
-                                <option value="2">São Paulo</option>
-                                <option value="3">Fortaleza</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="grupo-entrada">
-                            <label for="senha">Senha:</label>
-                            <input type="password" id="senha" class="campo" required>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="grupo-entrada">
-                            <label for="confSenha">Confirme a Senha:</label>
-                            <input type="password" id="confSenha" class="campo" required>
-                        </div>
-                    </div>
-                </div>
-
-                <div style="text-align: center; margin-top: 40px;">
-                    <input type="submit" value="Assinar MyPilas" class=" botao--principal botao--cadastro">
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </main>
 
     <footer class="layout-rodape">
       <div class="container">
-        <p>&copy; MyPilas. Todos os direitos reservados.</p>
+        <p>&copy; Azematti Performance. Todos os direitos reservados.</p>
       </div>
     </footer>
 
